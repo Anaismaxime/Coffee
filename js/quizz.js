@@ -18,6 +18,7 @@ form.addEventListener("submit", function (event) {
 
     //Obtenir un tableau contenant toutes les clés de l'objet.
     const questionKeys = Object.keys(correctAnswers);
+    
     //Obtenir le nombre total de questions
     const totalQuestions = questionKeys.length;
 
@@ -77,11 +78,11 @@ form.addEventListener("submit", function (event) {
 
     // Créer un élément <p> pour afficher le score final
     const scoreMessage = document.createElement("p");
-    scoreMessage.classList.add("score-message"); // Ajouter une classe pour le style
+    scoreMessage.classList.add("score-message"); 
     scoreMessage.style.fontWeight = "bold";
     scoreMessage.style.fontSize = "1.2em";
 
-    // Personnaliser le message en fonction du score
+    // Personnalisation des messages en fonction du score
     if (score === totalQuestions) {
         scoreMessage.textContent = `🎉 Félicitations ! Tu as ${score}/${totalQuestions} bonnes réponses.`;
         scoreMessage.style.color = "green";

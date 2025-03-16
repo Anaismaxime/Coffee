@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Révision</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Delius+Swash+Caps&family=Kumbh+Sans:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>La Maison du Café</h1>
+        <p>Quoi de meilleur qu'un bon café pour commencer la journée?</p>
+
+        <nav>
+            <a href="#">La Maison du Café</a>
+            <ul>
+                <li><a href="index.html">Origine du café</a></li>
+                <li><a href="recette.html">Recette</a></li>
+                <li><a href="quizz.html">Quizz</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Les Origines du Café</h2>
+            <p>Le café trouve son origine en <strong>Éthiopie</strong>, où, selon la légende, un berger nommé
+                <strong>Kaldi</strong> aurait découvert ses effets stimulants au IXᵉ siècle. Il aurait remarqué que ses
+                chèvres devenaient pleines d’énergie après avoir consommé les baies rouges d’un arbuste inconnu.
+                Intrigué, il en parla à un moine, qui utilisa ces grains pour préparer une boisson, l’aidant à rester
+                éveillé lors de ses prières nocturnes. Par la suite, la culture du café s’est répandue vers <strong>le
+                    Yémen</strong>, où les soufis utilisaient cette boisson pour prolonger leurs méditations. Dès le XVᵉ
+                siècle, le café se popularise dans le monde arabe, notamment à La Mecque et à Istanbul, où les premières
+                maisons de café voient le jour. <strong>Au XVIIᵉ siècle, le café atteint l’Europe, d'abord à
+                    Venise</strong>, avant de conquérir Paris, Londres et Vienne. Il devient rapidement une boisson
+                incontournable, donnant naissance aux célèbres cafés et salons littéraires ujourd’hui, le café est l’une
+                des boissons les plus consommées au monde, avec des variétés et des méthodes de préparation diversifiées
+                selon les cultures et les préférences.
+            </p>
+        </section>
+        <section class="favory">
+
+            <h2>Quel est ton café préféré ?</h2>
+            <form>
+                <fieldset>
+                    <label for="type">Type de café :</label>
+                    <select id="type" name="type">
+                        <option value="expresso">Expresso</option>
+                        <option value="latte">Latte</option>
+                        <option value="americano">Americano</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="mocha">Mocha</option>
+                    </select><br><br>
+
+                    <label for="sucre">Ajoutes-tu du sucre ?</label>
+                    <input type="radio" id="sucre_oui" name="sucre" value="oui"> Oui
+                    <input type="radio" id="sucre_non" name="sucre" value="non"> Non<br><br>
+
+                    <label for="lait">Souhaites-tu du lait ?</label>
+                    <input type="checkbox" id="lait" name="lait"><br><br>
+
+                    <label for="commentaire">Autres préférences :</label><br>
+                    <textarea id="commentaire" name="commentaire" rows="4" cols="50"
+                        placeholder="Parlez-nous de votre café parfait !"></textarea><br><br>
+
+                    <button type="submit">Envoyer</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Envie d'une machine à café, de quelques dossettes ou de grains du monde entier? Trouve ton bonheur sur le
+            site<a
+                href="https://www.maxicoffee.com/machine-expresso-manuelle-c-3_1381_14.html?msclkid=c039710504351c22562e169a57bebb3c&utm_source=bing&utm_medium=cpc&utm_campaign=G%20-%20Machines%20Expresso%20Manuelle%20et%20Moulin&utm_term=cafetiere%20cafe%20moulu&utm_content=G%20-%20Machines%20expresso%20-%20Modern%20Search">
+                MaxiCoffee.com</a> !</p>
+    </footer>
+</body>
+
+</html>

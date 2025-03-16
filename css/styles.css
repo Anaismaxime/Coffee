@@ -1,0 +1,160 @@
+:root {
+    font-size: 16px;
+    font-family: "Bellota", serif;
+}
+
+body {
+    background-image: url(fond.jpg);
+
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+header {
+    background-color: burlywood;
+    border-radius: 20px;
+    margin: 50px 50px;
+    padding: 20px 20px;
+    text-align: center;
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    nav {
+        background-color: saddlebrown;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            color: white;
+            text-decoration: none;
+            margin-left: 50px;
+            font-size: 1.2rem;
+        }
+
+        ul {
+            li {
+                list-style: none;
+                display: inline;
+                margin-right: 20px;
+
+                a {
+                    font-size: 1rem;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero {
+    background-color: burlywood;
+    border-radius: 20px;
+    margin: 50px 50px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.favory{
+    background-color: burlywood;
+    border-radius: 20px;
+    margin: 50px 50px;
+    padding: 20px 20px;
+    text-align: center;
+    fieldset{
+        margin-inline:200px;
+        border: none;
+    }
+    form label:last-of-type{
+        margin-bottom: 10px;
+    }
+
+}
+
+.herorecette {
+    background-color: burlywood;
+    border-radius: 20px;
+    margin: 50px 50px;
+    padding: 20px 20px;
+    position: relative;
+
+    img, figcaption{
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        max-width: 300px;
+        position: absolute;
+        top: 143px;
+        right: 50px;
+
+    }
+
+
+    h2:first-of-type {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+.heroquizz {
+    background-color: burlywood;
+    border-radius: 20px;
+    margin: 50px 50px;
+    padding: 20px 20px;
+
+    h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 2px;
+
+    }
+
+    form fieldset{
+       border: none;
+       margin-bottom: 10px;
+       legend{
+        font-weight: 700;
+        font-size: 1.1rem;
+       }
+       .question{
+        display: flex;
+        flex-direction: column;
+       }
+       }
+
+    button{
+        border-radius: 10px;
+        background-color: rgba(139, 69, 39, 0.25);
+       
+    }
+}
+
+
+footer {
+    background-color: saddlebrown;
+    padding: 5px;
+    text-align: center;
+
+    p {
+        color: white;
+
+        a {
+            text-decoration: underline;
+            color: white;
+        }
+    }
+}
